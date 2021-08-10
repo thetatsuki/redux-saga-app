@@ -1,0 +1,28 @@
+.table-items {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background: #fff;
+  margin: 9px 0;
+  cursor: pointer;
+
+  &#gray {
+    background: #FBFBFB;
+  }
+
+  &__item {
+    width: 100%;
+    font-weight: 400;
+    font-size: 22px;
+
+    color: #666666;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+
+    &.long {
+      width: 200%;
+    }
+  }
+}

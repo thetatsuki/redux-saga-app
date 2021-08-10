@@ -1,0 +1,25 @@
+.pages {
+  display: flex;
+  justify-content: center;
+
+  p {
+    margin: 0 8px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #666666;
+    cursor: pointer;
+
+    &.active {
+      background: #0079D4;
+      color: #fff;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 30px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #AAAAAA;
+}
+button {
+  font-family: Nunito;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 15px;
+
+  font-color: #323232;
+  font-weight: 700;
+
+  &:active  {
+    transform: translateY(1.5px)
+  }
+}
+
+a {
+  text-decoration: none;
+}
